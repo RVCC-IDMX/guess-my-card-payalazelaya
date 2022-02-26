@@ -8,6 +8,8 @@
 9 */
 function getRandomInt(min, max) {
   // write your code here & return value
+  const random = Math.floor(Math.random() * max) + min;
+  return random;
 }
 
 export default getRandomInt;
